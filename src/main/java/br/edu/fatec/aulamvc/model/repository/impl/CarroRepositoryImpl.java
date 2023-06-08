@@ -3,9 +3,12 @@ package br.edu.fatec.aulamvc.model.repository.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import br.edu.fatec.aulamvc.model.dto.Carro;
 import br.edu.fatec.aulamvc.model.repository.CarroRepository;
 
+@Repository
 public class CarroRepositoryImpl implements CarroRepository {
 
 	private static List<Carro> bdCarros = new ArrayList<Carro>();
